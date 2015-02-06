@@ -5,6 +5,7 @@
  * CONTENTS............You’re reading it!
  * LAYOUT..............
  * BLOCK...............
+ * NEWS................
  */
 
 
@@ -12,9 +13,13 @@
   ==LAYOUT
 \*------------------------------------*/
 
+.left {
+  float: left;
+}
+
 .page-node-1149 #content {
   min-height: 0;
-  width: 390px;
+  width: 505px;
 }
 
 .page-node-1149 #content .section {
@@ -22,28 +27,102 @@
 }
 
 .page-node-1149 #sidebar-second {
-  width: 480px;
+  width: 475px;
 }
 
-#block-block-57 {
+.page-node-1149 #sidebar-second #block-block-57,
+.page-node-1149 #sidebar-second #block-block-58,
+.page-node-1149 #sidebar-second #block-block-59,
+.page-node-1149 #sidebar-second #block-block-60 {
+  width: 230px;
+  float: left;
+  margin-left: 0;
+}
 
+.page-node-1149 #sidebar-second #block-block-58,
+.page-node-1149 #sidebar-second #block-block-60 {
+  margin-left: 5px;
+}
+
+.page-node-1149 #sidebar-second #block-block-61,
+.page-node-1149 #sidebar-second #block-block-62 {
+  float: left;
+  margin-left: 0;
+}
+
+.page-node-1149 #sidebar-second #block-block-61 {
+  margin-bottom: 0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+.page-node-1149 #sidebar-second #block-block-62 {
+  margin-top: 0;
+}
 
 
 
 /*------------------------------------*\
   ==BLOCK
 \*------------------------------------*/
+
+#block-block-57 .block-header {
+  background: none;
+  background-color: #22bbea;
+  color: #FFF;
+  margin: 0;
+}
+
+#block-block-57 {
+  border: 1px solid #22bbea;
+}
+
+#block-block-58 .block-header {
+  background: none;
+  background-color: #7cb61f;
+  color: #FFF;
+  margin: 0;
+}
+
+#block-block-58 {
+  border: 1px solid #7cb61f;
+}
+
+#block-block-59 .block-header,
+#block-block-60 .block-header,
+#block-block-61 .block-header,
+#block-block-62 .block-header {
+  background: none;
+  background-color: #5482AB;
+  color: #FFF;
+  margin: 0;
+}
+
+#block-block-59,
+#block-block-60,
+#block-block-61,
+#block-block-62{
+  border: 1px solid #5482AB;
+}
+
+
+
+
+/*------------------------------------*\
+  ==NEWS
+\*------------------------------------*/
+ol.tags {
+  margin: 0;
+}
+
+#block-views-articles-block-1 .block-header {
+  background: none;
+  border-bottom: 1px solid #333;
+  color: #333;
+  font-family: oswald, serif;
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-bottom: 5px;
+  padding-bottom: 4px;
+  padding-left: 0;
+  width: 100%;
+}
